@@ -1,0 +1,11 @@
+D:\C_Sharp\NetCafeManagement\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\C_Sharp\NetCafeManagement\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\C_Sharp\NetCafeManagement\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\ref\Repositories.dll

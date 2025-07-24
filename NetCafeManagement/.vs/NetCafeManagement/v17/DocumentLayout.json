@@ -1,0 +1,387 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\transactionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\transactionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\shiftvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\shiftvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\sessionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\sessionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\orderdetailvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\orderdetailvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\employeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\employeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\customervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\customervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\computervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\computervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA984E6-4191-4DD1-A229-997F2A88CF3B}|DataAccessLayer\\DataAccessLayer.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\dataaccesslayer\\netcafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA984E6-4191-4DD1-A229-997F2A88CF3B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\netcafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\validators\\accountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\validators\\accountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|d:\\c_sharp\\projectprn212\\netcafemanagement\\netcafemanagement\\businessobjects\\businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C_Sharp\\NetCafeManagement\\DataAccessLayer\\Models\\NetCafeContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\TransactionValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\TransactionValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\TransactionValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\TransactionValidator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:50:45.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShiftValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\ShiftValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\ShiftValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\ShiftValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\ShiftValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:50:16.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SessionValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\SessionValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\SessionValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\SessionValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\SessionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:49:48.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\ProductValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\ProductValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:49:10.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetailValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\OrderDetailValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\OrderDetailValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\OrderDetailValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\OrderDetailValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:48:42.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\OrderValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\OrderValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\OrderValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\OrderValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:45:25.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\EmployeeValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\EmployeeValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\EmployeeValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\EmployeeValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:43:56.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:58:06.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Product.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Product.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:58:15.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Session.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Session.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Session.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Session.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:58:23.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Shift.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Shift.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Shift.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Shift.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Shift.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:58:35.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Transaction.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Transaction.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:58:48.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\CustomerValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\CustomerValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\CustomerValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\CustomerValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:43:24.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NetCafeContext.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\DataAccessLayer\\NetCafeContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\NetCafeContext.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\DataAccessLayer\\NetCafeContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\NetCafeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:59:21.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ComputerValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\ComputerValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\ComputerValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\ComputerValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\ComputerValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:31:11.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Order.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Order.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:57:45.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Account.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Account.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:52:07.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Computer.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Computer.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Computer.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Computer.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Computer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:52:22.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Customer.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Customer.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:57:17.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Employee.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Models\\Employee.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:16:21.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountValidator.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\AccountValidator.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Validators\\AccountValidator.cs",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\Validators\\AccountValidator.cs",
+              "RelativeToolTip": "BusinessObjects\\Validators\\AccountValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:29:59.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BusinessObjects.csproj",
+              "DocumentMoniker": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj",
+              "RelativeDocumentMoniker": "BusinessObjects\\BusinessObjects.csproj",
+              "ToolTip": "D:\\C_Sharp\\ProjectPRN212\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj",
+              "RelativeToolTip": "BusinessObjects\\BusinessObjects.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T02:25:21.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NetCafeContext.cs",
+              "DocumentMoniker": "D:\\C_Sharp\\NetCafeManagement\\DataAccessLayer\\Models\\NetCafeContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\NetCafeManagement\\DataAccessLayer\\Models\\NetCafeContext.cs",
+              "ToolTip": "D:\\C_Sharp\\NetCafeManagement\\DataAccessLayer\\Models\\NetCafeContext.cs",
+              "RelativeToolTip": "..\\..\\..\\NetCafeManagement\\DataAccessLayer\\Models\\NetCafeContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:34:37.517Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
