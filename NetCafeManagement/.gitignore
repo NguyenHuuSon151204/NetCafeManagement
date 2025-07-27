@@ -1,0 +1,23 @@
+# Ignore VS + build output
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# Other
+*.log
+*.cache
