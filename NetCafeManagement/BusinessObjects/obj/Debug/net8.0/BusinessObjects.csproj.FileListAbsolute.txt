@@ -22,3 +22,16 @@ D:\C_Sharp\ProjectPRN212\NetCafeManagement\NetCafeManagement\BusinessObjects\obj
 D:\C_Sharp\ProjectPRN212\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
 D:\C_Sharp\ProjectPRN212\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
 D:\C_Sharp\ProjectPRN212\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.sourcelink.json
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll

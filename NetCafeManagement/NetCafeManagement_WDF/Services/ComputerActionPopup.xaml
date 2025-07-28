@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="NetCafeManagement_WDF.Views.ComputerActionPopup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="Transparent" Height="500" Width="500">
+
+    <Border Background="#2B2B40"
+            CornerRadius="20"
+            Padding="25"
+            Margin="30"
+            BorderBrush="#FFFFFF30"
+            BorderThickness="1">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+
+            <!-- Thông tin máy -->
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock x:Name="ComputerNameText"
+                           FontSize="26"
+                           FontWeight="Bold"
+                           Foreground="White"
+                           TextAlignment="Center"/>
+                <TextBlock x:Name="ComputerTierText"
+                           FontSize="16"
+                           Foreground="White"
+                           TextAlignment="Center" Margin="0,5,0,0"/>
+                <TextBlock x:Name="ComputerStatusText"
+                           FontSize="16"
+                           Foreground="White"
+                           TextAlignment="Center" Margin="0,5,0,10"/>
+            </StackPanel>
+
+            <!-- Thông tin phiên hoạt động -->
+            <Border x:Name="SessionInfoPanel"
+                    Visibility="Collapsed"
+                    Background="#1F1F30"
+                    CornerRadius="10"
+                    Margin="0,0,0,10">
+                <StackPanel Margin="10">
+                    <TextBlock x:Name="CustomerNameText" Foreground="White" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock x:Name="CustomerBalanceText" Foreground="White" FontSize="14"/>
+                    <TextBlock x:Name="SessionStartTimeText" Foreground="White" FontSize="14"/>
+                    <TextBlock x:Name="SessionUsageTimeText" Foreground="White" FontSize="14"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Nút chức năng -->
+            <WrapPanel HorizontalAlignment="Center" Margin="0,0,0,5">
+                <Button Content="▶ Bắt đầu" Width="120" Height="40" Margin="5" Click="StartSession_Click"/>
+                <Button Content="🍽 Gọi món" Width="120" Height="40" Margin="5" Click="OrderFood_Click"/>
+            </WrapPanel>
+
+            <WrapPanel HorizontalAlignment="Center" Margin="0,0,0,15">
+                <Button Content="💳 Nạp tiền" Width="120" Height="40" Margin="5" Click="Recharge_Click"/>
+                <Button Content="⛔ Kết thúc" Width="120" Height="40" Margin="5" Click="EndSession_Click"/>
+            </WrapPanel>
+
+            <!-- Nút quay lại -->
+            <Button Content="⬅ Quay lại"
+                    Width="130"
+                    Height="36"
+                    Click="Back_Click"
+                    HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Border>
+</UserControl>

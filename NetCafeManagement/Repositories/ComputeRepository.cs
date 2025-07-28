@@ -13,7 +13,7 @@ namespace Repositories
 
         public IEnumerable<Computer> GetAvailableComputers()
         {
-            return _context.Computers.Where(c => c.IsAvailable).ToList();
+            return _context.Computers.Where(c => c.Status == 1).ToList();
         }
     }
 }

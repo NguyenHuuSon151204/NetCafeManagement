@@ -163,13 +163,13 @@ END
 
 -- Tài khoản admin
 INSERT INTO ACCOUNTS (Username, PasswordHash, Salt) 
-VALUES ('admin', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 'salted123'); -- password: admin
+VALUES ('admin', 'admin', 'salted123'); -- password: admin
 
 -- Tài khoản nhân viên
 INSERT INTO ACCOUNTS (Username, PasswordHash, Salt) VALUES 
-('staff1', 'd82493b6823132873447b575918a7d845b35a5d4b8d8b6efe2e9e4a3a8a7d6f5', 'salt123'), -- password: 123456
-('staff2', 'd82493b6823132873447b575918a7d845b35a5d4b8d8b6efe2e9e4a3a8a7d6f5', 'salt123'),
-('tech1', 'd82493b6823132873447b575918a7d845b35a5d4b8d8b6efe2e9e4a3a8a7d6f5', 'salt123');
+('staff1', '123123', 'salt123'), -- password: 123456
+('staff2', '123123', 'salt123'),
+('tech1', '123123', 'salt123');
 
 -- Thông tin nhân viên
 INSERT INTO EMPLOYEES (AccountID, FullName, Phone, Role) VALUES
@@ -271,3 +271,5 @@ SELECT c.Name, t.Amount, t.Type, t.CreatedAt
 FROM TRANSACTIONS t
 JOIN CUSTOMERS c ON t.CustomerID = c.CustomerID
 ORDER BY t.CreatedAt DESC;
+
+SELECT * FROM Computers

@@ -1,0 +1,33 @@
+﻿<Window x:Class="NetCafeManagement_WDF.Views.SelectCustomerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chọn hoặc thêm khách hàng" Height="500" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Danh sách khách -->
+        <TextBlock Text="Danh sách khách hàng:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <ListBox x:Name="CustomerListBox" Grid.Row="1" DisplayMemberPath="Name" Height="200"/>
+
+        <!-- Thêm mới -->
+        <StackPanel Grid.Row="2" Margin="0,10,0,10">
+            <TextBlock Text="Thêm khách hàng mới:" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBox x:Name="NewCustomerName" Margin="0,0,0,5"/>
+            <TextBox x:Name="NewCustomerPhone" Margin="0,0,0,5"/>
+            <Button Content="➕ Thêm khách" Click="AddCustomer_Click" Width="100" HorizontalAlignment="Left"/>
+        </StackPanel>
+
+        <!-- Số tiền nạp -->
+        <StackPanel Grid.Row="3" Margin="0,10,0,0">
+            <TextBlock Text="Số tiền nạp (nếu có):"/>
+            <TextBox x:Name="RechargeAmountBox"/>
+            <Button Content="✅ Xác nhận chọn" Click="SelectButton_Click" Margin="0,10,0,0" Width="130" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

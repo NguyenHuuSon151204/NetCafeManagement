@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace Repositories
 {
-    public class UsageSessionRepository : GenericRepository<Session>, ISessionRepository
+    public class SessionRepository : GenericRepository<Session>, ISessionRepository
     {
-        public UsageSessionRepository(NetCafeContext context) : base(context) { }
+        public SessionRepository(NetCafeContext context) : base(context) { }
 
         public IEnumerable<Session> GetSessionsByCustomerId(int customerId)
         {

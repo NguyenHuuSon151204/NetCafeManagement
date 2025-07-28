@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{5DFE240B-813E-42BA-9FE1-3BAB33A91C0A}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{B59DEF0C-1235-4C15-A47A-B29ABF643AB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{25C7FA4B-A6AB-4AD6-933F-E8F4CCF1C60B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCafeManagement_WDF", "NetCafeManagement_WDF\NetCafeManagement_WDF.csproj", "{45C2F38D-8B15-4251-BCBF-1CF5AD9C6EFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{25C7FA4B-A6AB-4AD6-933F-E8F4CCF1C60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25C7FA4B-A6AB-4AD6-933F-E8F4CCF1C60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25C7FA4B-A6AB-4AD6-933F-E8F4CCF1C60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C2F38D-8B15-4251-BCBF-1CF5AD9C6EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C2F38D-8B15-4251-BCBF-1CF5AD9C6EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C2F38D-8B15-4251-BCBF-1CF5AD9C6EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C2F38D-8B15-4251-BCBF-1CF5AD9C6EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
