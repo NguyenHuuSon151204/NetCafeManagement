@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C\\New folder\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Workspace\\Theory\\Summer2025\\PRN212\\Project\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj": {}
   },
   "projects": {
-    "D:\\C\\New folder\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Workspace\\Theory\\Summer2025\\PRN212\\Project\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C\\New folder\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Workspace\\Theory\\Summer2025\\PRN212\\Project\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\C\\New folder\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "D:\\C\\New folder\\NetCafeManagement\\BusinessObjects\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Workspace\\Theory\\Summer2025\\PRN212\\Project\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Workspace\\Theory\\Summer2025\\PRN212\\Project\\NetCafeManagement\\NetCafeManagement\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

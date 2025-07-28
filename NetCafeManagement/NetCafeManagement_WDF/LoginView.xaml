@@ -1,0 +1,324 @@
+﻿<Window x:Class="NetCafeManagement_WDF.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Net Cafe Management System"
+        Height="700" Width="450"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+
+    <Window.Resources>
+        <!-- Glassmorphism Button Style -->
+        <Style x:Key="GlassButton" TargetType="Button">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#FF6B73FF" Offset="0"/>
+                        <GradientStop Color="#FF9644FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="20,12"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="25"
+                                Padding="{TemplateBinding Padding}">
+                            <Border.Effect>
+                                <DropShadowEffect Color="#4A90E2" 
+                                                Direction="270" 
+                                                ShadowDepth="4" 
+                                                BlurRadius="15" 
+                                                Opacity="0.4"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                            <GradientStop Color="#FF7B83FF" Offset="0"/>
+                                            <GradientStop Color="#FFA654FF" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                            <GradientStop Color="#FF5B63FF" Offset="0"/>
+                                            <GradientStop Color="#FF8634FF" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Glassmorphism TextBox Style -->
+        <Style x:Key="GlassTextBox" TargetType="TextBox">
+            <Setter Property="Padding" Value="15,12"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#40FFFFFF"/>
+            <Setter Property="Background" Value="#20FFFFFF"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="15"
+                        Padding="{TemplateBinding Padding}">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" 
+                                          Direction="270" 
+                                          ShadowDepth="2" 
+                                          BlurRadius="8" 
+                                          Opacity="0.1"/>
+                            </Border.Effect>
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                  Foreground="{TemplateBinding Foreground}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="#80FFFFFF"/>
+                                <Setter Property="Background" Value="#30FFFFFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Glassmorphism PasswordBox Style -->
+        <Style x:Key="GlassPasswordBox" TargetType="PasswordBox">
+            <Setter Property="Padding" Value="15,12"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#40FFFFFF"/>
+            <Setter Property="Background" Value="#20FFFFFF"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="15"
+                        Padding="{TemplateBinding Padding}">
+                            <Border.Effect>
+                                <DropShadowEffect Color="Black" 
+                                          Direction="270" 
+                                          ShadowDepth="2" 
+                                          BlurRadius="8" 
+                                          Opacity="0.1"/>
+                            </Border.Effect>
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                  Foreground="{TemplateBinding Foreground}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="#80FFFFFF"/>
+                                <Setter Property="Background" Value="#30FFFFFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <!-- Close Button Style -->
+        <Style x:Key="CloseButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Width" Value="30"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="15">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#30FF0000"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border CornerRadius="20">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#FF1E3C72" Offset="0"/>
+                <GradientStop Color="#FF2A5298" Offset="0.5"/>
+                <GradientStop Color="#FF6B73FF" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Border.Effect>
+            <DropShadowEffect Color="Black" 
+                            Direction="270" 
+                            ShadowDepth="10" 
+                            BlurRadius="30" 
+                            Opacity="0.3"/>
+        </Border.Effect>
+
+        <Grid>
+            <!-- Close Button -->
+            <Button Content="✕" 
+                    Style="{StaticResource CloseButton}"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Margin="15,15,15,0"
+                    Click="CloseButton_Click"/>
+
+            <!-- Main Content -->
+            <StackPanel VerticalAlignment="Center" Margin="50,0">
+
+                <!-- Header Section -->
+                <StackPanel HorizontalAlignment="Center" Margin="0,0,0,40">
+                    <!-- Animated Logo -->
+                    <Grid Width="80" Height="80" Margin="0,0,0,20">
+                        <Ellipse Fill="#40FFFFFF" Width="80" Height="80"/>
+                        <Ellipse Fill="#60FFFFFF" Width="60" Height="60"/>
+                        <Ellipse Fill="White" Width="40" Height="40"/>
+                        <TextBlock Text="🖥️" FontSize="24" 
+                                  HorizontalAlignment="Center" 
+                                  VerticalAlignment="Center"/>
+                    </Grid>
+
+                    <!-- Title with Glow Effect -->
+                    <TextBlock Text="NET CAFE"
+                              FontSize="28"
+                              FontWeight="Bold"
+                              Foreground="White"
+                              HorizontalAlignment="Center"
+                              Margin="0,0,0,5">
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="White" 
+                                            Direction="0" 
+                                            ShadowDepth="0" 
+                                            BlurRadius="10" 
+                                            Opacity="0.5"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+
+                    <TextBlock Text="MANAGEMENT SYSTEM"
+                              FontSize="14"
+                              FontWeight="SemiBold"
+                              Foreground="#E0FFFFFF"
+                              HorizontalAlignment="Center"
+                              Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Welcome back! Please sign in to your account"
+                              FontSize="12"
+                              Foreground="#C0FFFFFF"
+                              HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <!-- Login Form with Glass Effect -->
+                <Border Background="#20FFFFFF"
+                        CornerRadius="20"
+                        Padding="30"
+                        Margin="0,0,0,20">
+                    <Border.Effect>
+                        <DropShadowEffect Color="Black" 
+                                        Direction="270" 
+                                        ShadowDepth="5" 
+                                        BlurRadius="15" 
+                                        Opacity="0.2"/>
+                    </Border.Effect>
+
+                    <StackPanel>
+                        <!-- Username Field -->
+                        <TextBlock Text="👤 Username"
+                                  FontSize="14"
+                                  FontWeight="SemiBold"
+                                  Foreground="White"
+                                  Margin="0,0,0,10"/>
+
+                        <TextBox x:Name="UsernameTextBox"
+                                Style="{StaticResource GlassTextBox}"
+                                Height="45"
+                                Margin="0,0,0,20"/>
+
+                        <!-- Password Field -->
+                        <TextBlock Text="🔒 Password"
+                                  FontSize="14"
+                                  FontWeight="SemiBold"
+                                  Foreground="White"
+                                  Margin="0,0,0,10"/>
+
+                        <PasswordBox x:Name="PasswordBox"
+                                    Style="{StaticResource GlassPasswordBox}"
+                                    Height="45"
+                                    Margin="0,0,0,25"/>
+
+                        <!-- Login Button -->
+                        <Button Content="SIGN IN"
+                               Style="{StaticResource GlassButton}"
+                               Height="50"
+                               Click="LoginButton_Click"
+                               Margin="0,0,0,20"/>
+
+                        <!-- Additional Options -->
+                        <Grid Margin="0,10,0,0">
+                            <CheckBox Content="Remember me"
+                                     FontSize="12"
+                                     Foreground="#E0FFFFFF"
+                                     HorizontalAlignment="Left"/>
+
+                            <TextBlock Text="Forgot Password?"
+                                      FontSize="12"
+                                      Foreground="#FFE0E0FF"
+                                      HorizontalAlignment="Right"
+                                      Cursor="Hand"
+                                      TextDecorations="Underline"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Footer -->
+                <StackPanel HorizontalAlignment="Center" Margin="0,20,0,0">
+                    <TextBlock Text="Secure • Fast • Reliable"
+                              FontSize="10"
+                              Foreground="#A0FFFFFF"
+                              HorizontalAlignment="Center"
+                              Margin="0,0,0,5"/>
+
+                    <TextBlock Text="© 2025 Net Cafe Management System v2.0"
+                              FontSize="10"
+                              Foreground="#80FFFFFF"
+                              HorizontalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

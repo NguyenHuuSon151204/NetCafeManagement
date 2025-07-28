@@ -9,3 +9,25 @@ D:\C_Sharp\NetCafeManagement\Services\obj\Debug\net8.0\Services.dll
 D:\C_Sharp\NetCafeManagement\Services\obj\Debug\net8.0\refint\Services.dll
 D:\C_Sharp\NetCafeManagement\Services\obj\Debug\net8.0\Services.pdb
 D:\C_Sharp\NetCafeManagement\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.sourcelink.json
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\Services.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\Services.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\BusinessObjects.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\Repositories.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\BusinessObjects.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\bin\Debug\net8.0\Repositories.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\Services.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Services\obj\Debug\net8.0\ref\Services.dll

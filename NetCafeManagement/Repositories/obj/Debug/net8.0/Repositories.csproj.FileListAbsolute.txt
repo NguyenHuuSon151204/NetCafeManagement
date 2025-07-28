@@ -9,3 +9,23 @@ D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.dll
 D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\C_Sharp\NetCafeManagement\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Máy tính\Workspace\Theory\Summer2025\PRN212\Project\NetCafeManagement\NetCafeManagement\Repositories\obj\Debug\net8.0\ref\Repositories.dll

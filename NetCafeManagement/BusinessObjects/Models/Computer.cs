@@ -17,6 +17,5 @@ namespace BusinessObjects.Models
         public byte? Status { get; set; }
 
         public virtual ICollection<Session> Sessions { get; set; }
-        public bool IsAvailable { get; set; }
     }
 }
