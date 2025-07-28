@@ -1,0 +1,44 @@
+# ========== VISUAL STUDIO ==========
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ========== BUILD ==========
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.tmp
+*.bak
+*.FileListAbsolute.txt
+*.assets.cache
+
+# ========== NUGET ==========
+*.nupkg
+*.nuspec
+project.lock.json
+project.assets.json
+*.nuget.g.props
+*.nuget.g.targets
+
+# ========== SYSTEM ==========
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+*.swp
+
+# ========== ARCHIVE ==========
+*.zip
+*.rar
+*.7z
+
+# ========== TEST/RELEASE ==========
+TestResults/
+_ReSharper*/
+*.testsettings
+*.vspscc
