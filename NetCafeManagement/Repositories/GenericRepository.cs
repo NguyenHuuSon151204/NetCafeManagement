@@ -1,4 +1,5 @@
-﻿using DataAccessLayer;
+﻿using BusinessObjects.Models;
+using DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Interfaces;
 using System;
@@ -26,11 +27,23 @@ namespace Repositories
         public IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
             => _dbSet.Where(predicate).ToList();
 
-        public void Add(T entity) => _dbSet.Add(entity);
+        public void Add(T entity)
+        {
+            _dbSet.Add(entity);
+            _context.SaveChanges();
+        }
 
-        public void Update(T entity) => _dbSet.Update(entity);
+        public void Update(T entity)
+        {
+            _dbSet.Update(entity);
+            _context.SaveChanges();
+        }
 
-        public void Delete(T entity) => _dbSet.Remove(entity);
+        public virtual void Delete(T entity)
+        {
+            _context.Set<T>().Remove(entity);
+            _context.SaveChanges();
+        }
 
         public void Save() => _context.SaveChanges();
     }
