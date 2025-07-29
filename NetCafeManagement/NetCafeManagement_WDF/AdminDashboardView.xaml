@@ -1,12 +1,84 @@
 ﻿<Window x:Class="NetCafeManagement_WDF.AdminDashboardView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:NetCafeManagement_WDF"
-        mc:Ignorable="d"
-        Title="AdminDashboardView" Height="450" Width="800">
+        xmlns:views="clr-namespace:NetCafeManagement_WDF.Views"
+        Title="Admin Dashboard"
+        Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen"
+        Background="#FFF5F5FD"
+        WindowStyle="None">
     <Grid>
-        
+        <!-- Sidebar -->
+        <Grid Width="240" Background="#FFDBCFA2" HorizontalAlignment="Left">
+            <StackPanel Margin="0,20,0,0">
+                <TextBlock Text="ADMIN PANEL"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           Foreground="Black"
+                           HorizontalAlignment="Center"
+                           Margin="0,10"
+                           FontFamily="Courier new"/>
+
+                <!-- Đưa Báo cáo lên đầu -->
+                <Button x:Name="BtnReport"
+                        Content="📊 Thống kê - Báo cáo"
+                        Style="{StaticResource GlassButton}"
+                        Margin="10,20,10,5"
+                        Height="45"
+                        Click="BtnReport_Click"/>
+
+                <Button x:Name="BtnManagePCs" 
+                        Content="🖥️ Quản lý máy trạm"
+                        Style="{StaticResource GlassButton}"
+                        Margin="10,5"
+                        Height="45"
+                        Click="BtnManagePCs_Click"/>
+
+                <Button x:Name="BtnManageUsers"
+                        Content="👤 Quản lý người dùng"
+                        Style="{StaticResource GlassButton}"
+                        Margin="10,5"
+                        Height="45"
+                        Click="BtnManageUsers_Click"/>
+
+                <Button x:Name="BtnManageServices"
+                        Content="🧾 Quản lý dịch vụ"
+                        Style="{StaticResource GlassButton}"
+                        Margin="10,5"
+                        Height="45"
+                        Click="BtnManageServices_Click"/>
+
+                <Button x:Name="BtnRevenue"
+                        Content="💰 Quản lý thu chi"
+                        Style="{StaticResource GlassButton}"
+                        Margin="10,5"
+                        Height="45"
+                        Click="BtnRevenue_Click"/>
+
+                <Button x:Name="BtnManageStaff"
+                        Content="🔒 Quản lý nhân viên"
+                        Style="{StaticResource GlassButton}"
+                        Margin="10,5"
+                        Height="45"
+                        Click="BtnManageStaff_Click"/>
+
+                <Button x:Name="BtnActivityLog"
+                        Content="🗂 Lịch sử hoạt động"
+                        Style="{StaticResource GlassButton}"
+                        Margin="10,5"
+                        Height="45"
+                        Click="BtnActivityLog_Click"/>
+
+                <Button x:Name="BtnLogout"
+                        Content="🚪 Đăng xuất"
+                        Style="{StaticResource GlassButton}"
+                        Margin="10,40,10,0"
+                        Height="40"
+                        Click="BtnLogout_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Main Content Area -->
+        <Grid x:Name="MainContentArea" Margin="240,0,0,0" Background="#FFF5F5FD"/>
     </Grid>
 </Window>
