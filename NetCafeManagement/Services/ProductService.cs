@@ -17,9 +17,9 @@ namespace Services
 
         public Product? GetById(int id) => _productRepo.GetById(id);
 
-        public void Create(Product obj) => _productRepo.Add(obj);
+        public void Add(Product obj) => _productRepo.Add(obj);
 
-        public void Update(Product obj) => _productRepo.Update(obj);
+        public void Edit(Product obj) => _productRepo.Update(obj);
 
         public void Delete(int id)
         {

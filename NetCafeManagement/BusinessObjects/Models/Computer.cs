@@ -1,21 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BusinessObjects.Models
+namespace BusinessObjects.Models;
+
+public partial class Computer
 {
-    public partial class Computer
-    {
-        public Computer()
-        {
-            Sessions = new HashSet<Session>();
-        }
+    public int ComputerId { get; set; }
 
-        public int ComputerId { get; set; }
-        public string Name { get; set; } = null!;
-        public string? Tier { get; set; }
-        public decimal HourlyRate { get; set; }
-        public byte? Status { get; set; }
+    public string Name { get; set; } = null!;
 
-        public virtual ICollection<Session> Sessions { get; set; }
-    }
+    public string? Tier { get; set; }
+
+    public decimal HourlyRate { get; set; }
+
+    public byte? Status { get; set; }
+
+    public virtual ICollection<Session> Sessions { get; set; } = new List<Session>();
 }

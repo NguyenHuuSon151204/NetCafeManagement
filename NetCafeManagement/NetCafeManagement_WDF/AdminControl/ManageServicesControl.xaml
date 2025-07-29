@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="NetCafeManagement_WDF.AdminControl.ManageServicesControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#F5F7FA">
+    <UserControl.Resources>
+        <Style x:Key="SimpleButton" TargetType="Button">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="MinWidth" Value="100"/>
+            <Setter Property="Margin" Value="0,0,10,0"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Border Grid.Row="0" Background="White" CornerRadius="10" Padding="20" Margin="0,0,0,15" BorderBrush="#E1E5E9" BorderThickness="1">
+            <StackPanel Orientation="Horizontal">
+                <Border Background="#0EA5E9" CornerRadius="8" Width="50" Height="50" Margin="0,0,15,0">
+                    <TextBlock Text="🧃" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Border>
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="Quản lý dịch vụ" FontSize="24" FontWeight="Bold" Foreground="#1F2937"/>
+                    <TextBlock Text="Các món ăn, thức uống hoặc dịch vụ cung cấp cho khách" FontSize="13" Foreground="#6B7280" Margin="0,5,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Buttons -->
+        <Border Grid.Row="1" Background="White" CornerRadius="10" Padding="20" Margin="0,0,0,15" BorderBrush="#E1E5E9" BorderThickness="1">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="➕ Thêm" Background="#10B981" Foreground="White" Style="{StaticResource SimpleButton}" Click="AddButton_Click"/>
+                <Button Content="✏️ Sửa" Background="#3B82F6" Foreground="White" Style="{StaticResource SimpleButton}" Click="EditButton_Click"/>
+                <Button Content="🗑️ Xóa" Background="#EF4444" Foreground="White" Style="{StaticResource SimpleButton}" Click="DeleteButton_Click"/>
+                <Button Content="🔄 Làm mới" Background="#6B7280" Foreground="White" Style="{StaticResource SimpleButton}" Click="RefreshButton_Click"/>
+            </StackPanel>
+        </Border>
+
+        <!-- DataGrid -->
+        <Border Grid.Row="2" Background="White" CornerRadius="10" BorderBrush="#E1E5E9" BorderThickness="1">
+            <DataGrid x:Name="ServiceDataGrid"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      IsReadOnly="True"
+                      Background="White"
+                      FontSize="13"
+                      RowHeight="40"
+                      GridLinesVisibility="Horizontal"
+                      HeadersVisibility="Column">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="🧃 Tên dịch vụ" Binding="{Binding Name}" Width="*"/>
+                    <DataGridTextColumn Header="📦 Loại" Binding="{Binding Category}" Width="*"/>
+                    <DataGridTextColumn Header="💰 Giá" Binding="{Binding PriceFormatted}" Width="*"/>
+                    <DataGridTextColumn Header="✅ Kích hoạt" Binding="{Binding StatusText}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+    </Grid>
+</UserControl>

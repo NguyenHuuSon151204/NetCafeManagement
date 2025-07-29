@@ -1,0 +1,88 @@
+﻿<UserControl x:Class="NetCafeManagement_WDF.AdminControl.ManageUsersControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#F5F7FA">
+
+    <UserControl.Resources>
+        <Style x:Key="SimpleButton" TargetType="Button">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="MinWidth" Value="100"/>
+            <Setter Property="Margin" Value="0,0,10,0"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Border Grid.Row="0" Background="White" CornerRadius="10" Padding="20" Margin="0,0,0,15" BorderBrush="#E1E5E9" BorderThickness="1">
+            <StackPanel Orientation="Horizontal">
+                <Border Background="#F59E0B" CornerRadius="8" Width="50" Height="50" Margin="0,0,15,0">
+                    <TextBlock Text="👤" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Border>
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="Quản lý người dùng" FontSize="24" FontWeight="Bold" Foreground="#1F2937"/>
+                    <TextBlock Text="Thông tin khách hàng sử dụng máy tại quán" FontSize="13" Foreground="#6B7280" Margin="0,5,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Buttons -->
+        <Border Grid.Row="1" Background="White" CornerRadius="10" Padding="20" Margin="0,0,0,15" BorderBrush="#E1E5E9" BorderThickness="1">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="➕ Thêm" Background="#10B981" Foreground="White" Style="{StaticResource SimpleButton}" Click="AddButton_Click"/>
+                <Button Content="✏️ Sửa" Background="#3B82F6" Foreground="White" Style="{StaticResource SimpleButton}" Click="EditButton_Click"/>
+                <Button Content="🗑️ Xóa" Background="#EF4444" Foreground="White" Style="{StaticResource SimpleButton}" Click="DeleteButton_Click"/>
+                <Button Content="🔄 Làm mới" Background="#6B7280" Foreground="White" Style="{StaticResource SimpleButton}" Click="RefreshButton_Click"/>
+            </StackPanel>
+        </Border>
+
+        <!-- DataGrid -->
+        <Border Grid.Row="2" Background="White" CornerRadius="10" BorderBrush="#E1E5E9" BorderThickness="1">
+            <DataGrid x:Name="UsersDataGrid"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      IsReadOnly="True"
+                      Background="White"
+                      FontSize="13"
+                      RowHeight="40"
+                      GridLinesVisibility="Horizontal"
+                      HeadersVisibility="Column">
+
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn Header="👤 Tên khách" Width="*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="👤" FontSize="16" Margin="0,0,10,0"/>
+                                    <TextBlock Text="{Binding Name}" FontWeight="SemiBold"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTextColumn Header="☎️ Số điện thoại" Binding="{Binding Phone}" Width="*"/>
+                    <DataGridTextColumn Header="💰 Số dư (VNĐ)" Binding="{Binding BalanceFormatted}" Width="*"/>
+                    <DataGridTextColumn Header="📅 Ngày tham gia" Binding="{Binding JoinDateFormatted}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+    </Grid>
+</UserControl>
